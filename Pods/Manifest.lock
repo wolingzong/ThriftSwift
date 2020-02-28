@@ -1,0 +1,21 @@
+PODS:
+  - Thrift (0.14.0)
+
+DEPENDENCIES:
+  - "Thrift (from `git@github.com:apache/thrift.git`)"
+
+EXTERNAL SOURCES:
+  Thrift:
+    :git: "git@github.com:apache/thrift.git"
+
+CHECKOUT OPTIONS:
+  Thrift:
+    :commit: 1b7b00cde9cdd4a0dd9f09f240df551c87d4ab27
+    :git: "git@github.com:apache/thrift.git"
+
+SPEC CHECKSUMS:
+  Thrift: cff9db2e4853e69254617d1035487018b2d29a7c
+
+PODFILE CHECKSUM: 0e018a0f70833fc6965b97a5f6d46bda89f8865f
+
+COCOAPODS: 1.8.4

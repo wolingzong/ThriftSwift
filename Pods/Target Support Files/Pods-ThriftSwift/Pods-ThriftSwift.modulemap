@@ -1,0 +1,6 @@
+framework module Pods_ThriftSwift {
+  umbrella header "Pods-ThriftSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

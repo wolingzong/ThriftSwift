@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DA81615C66879A3E6B3811EE07F993 /* TTransportError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4167953275C44DF4A139CA63443844 /* TTransportError.swift */; };
+		0B5DBD0673ED7471C7CFFABA77697F8C /* TApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F918E007F7B2BEA1D251E6B69B20C9 /* TApplicationError.swift */; };
+		12C42A43D86822FA8F18272F0A769D17 /* TSocketTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACD980852A6625DB41FA28E0123F073 /* TSocketTransport.swift */; };
+		1D24CDF4A00721E0A2F96537D7D15191 /* TFramedTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C1E3B5CCA55FA076B08DE23DCFDC32 /* TFramedTransport.swift */; };
+		23D8CD3215A7334E329FE674C76524B1 /* TBinaryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84249F41E27C262E8CE736FD1EBBDBB /* TBinaryProtocol.swift */; };
+		251D073E66B4FF46A4F5A62579FDE1B8 /* TProtocolDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5068ED1D0E62CA88D27AAA0974C367 /* TProtocolDecorator.swift */; };
+		2C76D9F336C806C675636F71A179FC8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		31CC666636660734B90BC751A3259E66 /* TSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4BB26ACDC3642DB7290562F2A6E9CE /* TSocketServer.swift */; };
+		332B837C0F0C711331837D4021FF6683 /* TMultiplexedProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615607CA58AFD1154772ED08E8DA7E9 /* TMultiplexedProcessor.swift */; };
+		37ACA5C47FF15536FAE1BA95B72AA186 /* Thrift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F72E77E99006F2001524822EA0FB69D9 /* Thrift-dummy.m */; };
+		3C3B743F297D1A728DBD53C81B8ABECD /* TMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2FD38FE2103C602BE67532755C7CBC /* TMap.swift */; };
+		3F9F2C5EA7CE3546EDFCF8F72854BB9D /* TMultiplexedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFEBA8E613078BC6EC4DD69922B74B /* TMultiplexedProtocol.swift */; };
+		4072D2A31FDA004B1AFB1EF798ECC2FC /* TStreamTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373618436E31885FA66A356481592D6A /* TStreamTransport.swift */; };
+		440379D1D88D6E7FBECA89125BA8C7B6 /* TEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB256863301772457A7562F8A7A7423F /* TEnum.swift */; };
+		4838FEC00611C6C44FA906AF0626D4CF /* Thrift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9079AE3DEEB0EE7B26339BEAE3635EEB /* Thrift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4964E2B6E2F1BFB529C2F4BD6EA20FA6 /* TSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91D6605D6A1C1B3708DC04280E709D /* TSerializable.swift */; };
+		525845E6D775369C642E16081B016281 /* TTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A791A847F94C3EA6F3CF822A3F06B0 /* TTransport.swift */; };
+		537A35EBD75B7C8F79F9FF6601DA4F71 /* Pods-ThriftSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C202EA7ED9F333FEB559A3B64DA0DE /* Pods-ThriftSwift-dummy.m */; };
+		5A9E7E3C9303608AB5ABCCE9B98FEA8A /* TSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589504D7F244F0DA4D0F429BC16BE7E /* TSet.swift */; };
+		5C4F4855773631C1F1A5C3960B2316AF /* TBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315935200B385E03CA530513C7E72465 /* TBinary.swift */; };
+		5C518FA118199D3F009F2810CB833112 /* THTTPSessionTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8782E92B5DB2824176013A832CF85 /* THTTPSessionTransport.swift */; };
+		6273AE950E86A6524271CCA5D23352ED /* Thrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31985795AD5838A67BC6D66618E694D /* Thrift.swift */; };
+		716B5945B77BCA633189C27589F8D72F /* TStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4541DEE3F13E141AEBB1A8616FA75F /* TStruct.swift */; };
+		804F7745AB9FDE97688D5FB12E844729 /* Pods-ThriftSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A519B618778AE3DF56D3EE9A823281F5 /* Pods-ThriftSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841B8B1BDD66CE6BAB9579B39C0ED323 /* TList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD00939FC542F5C8EA73BA4CC89CB29 /* TList.swift */; };
+		A1867BEC1D8A1CA1076018B531814B29 /* TProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E998D102BE1B850507F445D10646CB /* TProcessor.swift */; };
+		A69F98E247B1524D57CE0C9C78D4FF12 /* TProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FB99B821985A68BAD345398332B2F /* TProtocol.swift */; };
+		C2ACAC8280A9FB28B57CCF515EC2D7FE /* TClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C5084B3F9A30F726E4D38E5CE7927A /* TClient.swift */; };
+		C30ABB0823E1666D421CF818D67D3667 /* TProtocolError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54BABB4B13B605E8BF9D3776589ECB4 /* TProtocolError.swift */; };
+		C66D385BC10CA79DD6CB8F01FF207B19 /* TFileHandleTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6502F1D69BFB579F6C2EECBC6BEF92C /* TFileHandleTransport.swift */; };
+		CCD449148CD4E395D93150F5FC617721 /* TWrappedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B015231EC4344856F7F80D7A0C824351 /* TWrappedProtocol.swift */; };
+		CDAC5DB79B84E40ABA938DE62C37F13D /* TSSLSocketTransportError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424C561F462B2E3563848F78A2288EA2 /* TSSLSocketTransportError.swift */; };
+		CF2D3A344BFD1C3E0FD7F2B4736EB7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D1463F62CB1DF64F9AF0A0AEE5765573 /* TCompactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEE46FA4B3EF695D5E4D8423BE4EFD /* TCompactProtocol.swift */; };
+		D4B45CF4CF9BF40A14B928C71BAB2FC9 /* TSSLSocketTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9502E7822B951AE46811C48B2CE8C288 /* TSSLSocketTransport.swift */; };
+		DC2049737E97746519E59ABB0FFB3C00 /* LinuxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052A8EF57A2FAA2EB1392150E74761A /* LinuxHelper.swift */; };
+		EFCD34A54E336093BDA8B7B8C451EBC0 /* TError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F75F763472065E77E573884BC98A01 /* TError.swift */; };
+		F2B681B7663F0FBC6590943A3C110F5D /* TMemoryBufferTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C202BF00963DD1E1689A19A1EA247C97 /* TMemoryBufferTransport.swift */; };
+		F80A0B0BA0DA2FA69FD9E9F1EAC59867 /* TFileTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643322702F970DAE0C2D9A9FAAFF1BDC /* TFileTransport.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		429AF67945871ECD7B3C7A987848DB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75187789AC56678CEBA8133C07445A1;
+			remoteInfo = Thrift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A30297C5D598E86C000133D71D8E5BE /* Pods-ThriftSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThriftSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		1CD8782E92B5DB2824176013A832CF85 /* THTTPSessionTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = THTTPSessionTransport.swift; path = lib/swift/Sources/THTTPSessionTransport.swift; sourceTree = "<group>"; };
+		1D43A7262BC6EF25B294F2FFBD1F857D /* Thrift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Thrift.modulemap; sourceTree = "<group>"; };
+		25C5084B3F9A30F726E4D38E5CE7927A /* TClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TClient.swift; path = lib/swift/Sources/TClient.swift; sourceTree = "<group>"; };
+		2615607CA58AFD1154772ED08E8DA7E9 /* TMultiplexedProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TMultiplexedProcessor.swift; path = lib/swift/Sources/TMultiplexedProcessor.swift; sourceTree = "<group>"; };
+		315935200B385E03CA530513C7E72465 /* TBinary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TBinary.swift; path = lib/swift/Sources/TBinary.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		373618436E31885FA66A356481592D6A /* TStreamTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TStreamTransport.swift; path = lib/swift/Sources/TStreamTransport.swift; sourceTree = "<group>"; };
+		4080347B0FEC2AD4094821A1DCE444E0 /* Pods-ThriftSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThriftSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		424C561F462B2E3563848F78A2288EA2 /* TSSLSocketTransportError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSSLSocketTransportError.swift; path = lib/swift/Sources/TSSLSocketTransportError.swift; sourceTree = "<group>"; };
+		43BEE46FA4B3EF695D5E4D8423BE4EFD /* TCompactProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCompactProtocol.swift; path = lib/swift/Sources/TCompactProtocol.swift; sourceTree = "<group>"; };
+		4B6FB99B821985A68BAD345398332B2F /* TProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TProtocol.swift; path = lib/swift/Sources/TProtocol.swift; sourceTree = "<group>"; };
+		52F918E007F7B2BEA1D251E6B69B20C9 /* TApplicationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TApplicationError.swift; path = lib/swift/Sources/TApplicationError.swift; sourceTree = "<group>"; };
+		57F75F763472065E77E573884BC98A01 /* TError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TError.swift; path = lib/swift/Sources/TError.swift; sourceTree = "<group>"; };
+		5D4AE710E3BDC1B82ABECBA82F05EE4F /* Pods_ThriftSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThriftSwift.framework; path = "Pods-ThriftSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		643322702F970DAE0C2D9A9FAAFF1BDC /* TFileTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TFileTransport.swift; path = lib/swift/Sources/TFileTransport.swift; sourceTree = "<group>"; };
+		6A10347C98C90EC7C3FDCA565AD7CB60 /* Pods-ThriftSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThriftSwift-frameworks.sh"; sourceTree = "<group>"; };
+		6CD0B8A952C6CB50FF91AA8D7EA11949 /* Thrift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Thrift.framework; path = Thrift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D91D6605D6A1C1B3708DC04280E709D /* TSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSerializable.swift; path = lib/swift/Sources/TSerializable.swift; sourceTree = "<group>"; };
+		6EC81D2F6A398FB1DBBD073CFEA2491D /* Pods-ThriftSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThriftSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F4541DEE3F13E141AEBB1A8616FA75F /* TStruct.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TStruct.swift; path = lib/swift/Sources/TStruct.swift; sourceTree = "<group>"; };
+		74A8ADAEBCB4DD763578F9005A5784BF /* Pods-ThriftSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThriftSwift.modulemap"; sourceTree = "<group>"; };
+		7A94C2EFC80F7DA0FE6E653EC686594B /* Thrift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Thrift-Info.plist"; sourceTree = "<group>"; };
+		7B5068ED1D0E62CA88D27AAA0974C367 /* TProtocolDecorator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TProtocolDecorator.swift; path = lib/swift/Sources/TProtocolDecorator.swift; sourceTree = "<group>"; };
+		89A791A847F94C3EA6F3CF822A3F06B0 /* TTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TTransport.swift; path = lib/swift/Sources/TTransport.swift; sourceTree = "<group>"; };
+		9079AE3DEEB0EE7B26339BEAE3635EEB /* Thrift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Thrift-umbrella.h"; sourceTree = "<group>"; };
+		9502E7822B951AE46811C48B2CE8C288 /* TSSLSocketTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSSLSocketTransport.swift; path = lib/swift/Sources/TSSLSocketTransport.swift; sourceTree = "<group>"; };
+		9D2FD38FE2103C602BE67532755C7CBC /* TMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TMap.swift; path = lib/swift/Sources/TMap.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31985795AD5838A67BC6D66618E694D /* Thrift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thrift.swift; path = lib/swift/Sources/Thrift.swift; sourceTree = "<group>"; };
+		A519B618778AE3DF56D3EE9A823281F5 /* Pods-ThriftSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThriftSwift-umbrella.h"; sourceTree = "<group>"; };
+		AB256863301772457A7562F8A7A7423F /* TEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TEnum.swift; path = lib/swift/Sources/TEnum.swift; sourceTree = "<group>"; };
+		B015231EC4344856F7F80D7A0C824351 /* TWrappedProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TWrappedProtocol.swift; path = lib/swift/Sources/TWrappedProtocol.swift; sourceTree = "<group>"; };
+		B1E998D102BE1B850507F445D10646CB /* TProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TProcessor.swift; path = lib/swift/Sources/TProcessor.swift; sourceTree = "<group>"; };
+		B4C1E3B5CCA55FA076B08DE23DCFDC32 /* TFramedTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TFramedTransport.swift; path = lib/swift/Sources/TFramedTransport.swift; sourceTree = "<group>"; };
+		B589504D7F244F0DA4D0F429BC16BE7E /* TSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSet.swift; path = lib/swift/Sources/TSet.swift; sourceTree = "<group>"; };
+		BA879715867C8105FFBFC1BA64EE0012 /* Thrift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Thrift-prefix.pch"; sourceTree = "<group>"; };
+		BACD980852A6625DB41FA28E0123F073 /* TSocketTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSocketTransport.swift; path = lib/swift/Sources/TSocketTransport.swift; sourceTree = "<group>"; };
+		BD4167953275C44DF4A139CA63443844 /* TTransportError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TTransportError.swift; path = lib/swift/Sources/TTransportError.swift; sourceTree = "<group>"; };
+		BDD00939FC542F5C8EA73BA4CC89CB29 /* TList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TList.swift; path = lib/swift/Sources/TList.swift; sourceTree = "<group>"; };
+		C202BF00963DD1E1689A19A1EA247C97 /* TMemoryBufferTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TMemoryBufferTransport.swift; path = lib/swift/Sources/TMemoryBufferTransport.swift; sourceTree = "<group>"; };
+		C6502F1D69BFB579F6C2EECBC6BEF92C /* TFileHandleTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TFileHandleTransport.swift; path = lib/swift/Sources/TFileHandleTransport.swift; sourceTree = "<group>"; };
+		D052A8EF57A2FAA2EB1392150E74761A /* LinuxHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinuxHelper.swift; path = lib/swift/Sources/LinuxHelper.swift; sourceTree = "<group>"; };
+		D54BABB4B13B605E8BF9D3776589ECB4 /* TProtocolError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TProtocolError.swift; path = lib/swift/Sources/TProtocolError.swift; sourceTree = "<group>"; };
+		DA4BB26ACDC3642DB7290562F2A6E9CE /* TSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TSocketServer.swift; path = lib/swift/Sources/TSocketServer.swift; sourceTree = "<group>"; };
+		E1C202EA7ED9F333FEB559A3B64DA0DE /* Pods-ThriftSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThriftSwift-dummy.m"; sourceTree = "<group>"; };
+		E8CFEBA8E613078BC6EC4DD69922B74B /* TMultiplexedProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TMultiplexedProtocol.swift; path = lib/swift/Sources/TMultiplexedProtocol.swift; sourceTree = "<group>"; };
+		E90A9DA6EE0C80DB80683A2059535EC0 /* Pods-ThriftSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThriftSwift.release.xcconfig"; sourceTree = "<group>"; };
+		EA05221840ACD489330039E26E28FCF2 /* Thrift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Thrift.xcconfig; sourceTree = "<group>"; };
+		F72E77E99006F2001524822EA0FB69D9 /* Thrift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Thrift-dummy.m"; sourceTree = "<group>"; };
+		F8156904B1DD6D99E938C227CEA6034D /* Pods-ThriftSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThriftSwift-Info.plist"; sourceTree = "<group>"; };
+		F84249F41E27C262E8CE736FD1EBBDBB /* TBinaryProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TBinaryProtocol.swift; path = lib/swift/Sources/TBinaryProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1417C898BB369461356184C1787DE300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C76D9F336C806C675636F71A179FC8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72B95CDE7004D9B996825BA5649C9089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2D3A344BFD1C3E0FD7F2B4736EB7C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58F857E7010EE99CA1E2E32365B6E07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4AE710E3BDC1B82ABECBA82F05EE4F /* Pods_ThriftSwift.framework */,
+				6CD0B8A952C6CB50FF91AA8D7EA11949 /* Thrift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED5E2911372DEB03B9F9A8C4C013B4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3B2A55FB2F556139AE92865935A0778 /* Thrift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EE827CD927C7D08C3F590F6DB55F5D9 /* Pods-ThriftSwift */ = {
+			isa = PBXGroup;
+			children = (
+				74A8ADAEBCB4DD763578F9005A5784BF /* Pods-ThriftSwift.modulemap */,
+				4080347B0FEC2AD4094821A1DCE444E0 /* Pods-ThriftSwift-acknowledgements.markdown */,
+				6EC81D2F6A398FB1DBBD073CFEA2491D /* Pods-ThriftSwift-acknowledgements.plist */,
+				E1C202EA7ED9F333FEB559A3B64DA0DE /* Pods-ThriftSwift-dummy.m */,
+				6A10347C98C90EC7C3FDCA565AD7CB60 /* Pods-ThriftSwift-frameworks.sh */,
+				F8156904B1DD6D99E938C227CEA6034D /* Pods-ThriftSwift-Info.plist */,
+				A519B618778AE3DF56D3EE9A823281F5 /* Pods-ThriftSwift-umbrella.h */,
+				1A30297C5D598E86C000133D71D8E5BE /* Pods-ThriftSwift.debug.xcconfig */,
+				E90A9DA6EE0C80DB80683A2059535EC0 /* Pods-ThriftSwift.release.xcconfig */,
+			);
+			name = "Pods-ThriftSwift";
+			path = "Target Support Files/Pods-ThriftSwift";
+			sourceTree = "<group>";
+		};
+		91B176D38B0019F619F9811DAEA133E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D43A7262BC6EF25B294F2FFBD1F857D /* Thrift.modulemap */,
+				EA05221840ACD489330039E26E28FCF2 /* Thrift.xcconfig */,
+				F72E77E99006F2001524822EA0FB69D9 /* Thrift-dummy.m */,
+				7A94C2EFC80F7DA0FE6E653EC686594B /* Thrift-Info.plist */,
+				BA879715867C8105FFBFC1BA64EE0012 /* Thrift-prefix.pch */,
+				9079AE3DEEB0EE7B26339BEAE3635EEB /* Thrift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Thrift";
+			sourceTree = "<group>";
+		};
+		A3B2A55FB2F556139AE92865935A0778 /* Thrift */ = {
+			isa = PBXGroup;
+			children = (
+				D052A8EF57A2FAA2EB1392150E74761A /* LinuxHelper.swift */,
+				52F918E007F7B2BEA1D251E6B69B20C9 /* TApplicationError.swift */,
+				315935200B385E03CA530513C7E72465 /* TBinary.swift */,
+				F84249F41E27C262E8CE736FD1EBBDBB /* TBinaryProtocol.swift */,
+				25C5084B3F9A30F726E4D38E5CE7927A /* TClient.swift */,
+				43BEE46FA4B3EF695D5E4D8423BE4EFD /* TCompactProtocol.swift */,
+				AB256863301772457A7562F8A7A7423F /* TEnum.swift */,
+				57F75F763472065E77E573884BC98A01 /* TError.swift */,
+				C6502F1D69BFB579F6C2EECBC6BEF92C /* TFileHandleTransport.swift */,
+				643322702F970DAE0C2D9A9FAAFF1BDC /* TFileTransport.swift */,
+				B4C1E3B5CCA55FA076B08DE23DCFDC32 /* TFramedTransport.swift */,
+				A31985795AD5838A67BC6D66618E694D /* Thrift.swift */,
+				1CD8782E92B5DB2824176013A832CF85 /* THTTPSessionTransport.swift */,
+				BDD00939FC542F5C8EA73BA4CC89CB29 /* TList.swift */,
+				9D2FD38FE2103C602BE67532755C7CBC /* TMap.swift */,
+				C202BF00963DD1E1689A19A1EA247C97 /* TMemoryBufferTransport.swift */,
+				2615607CA58AFD1154772ED08E8DA7E9 /* TMultiplexedProcessor.swift */,
+				E8CFEBA8E613078BC6EC4DD69922B74B /* TMultiplexedProtocol.swift */,
+				B1E998D102BE1B850507F445D10646CB /* TProcessor.swift */,
+				4B6FB99B821985A68BAD345398332B2F /* TProtocol.swift */,
+				7B5068ED1D0E62CA88D27AAA0974C367 /* TProtocolDecorator.swift */,
+				D54BABB4B13B605E8BF9D3776589ECB4 /* TProtocolError.swift */,
+				6D91D6605D6A1C1B3708DC04280E709D /* TSerializable.swift */,
+				B589504D7F244F0DA4D0F429BC16BE7E /* TSet.swift */,
+				DA4BB26ACDC3642DB7290562F2A6E9CE /* TSocketServer.swift */,
+				BACD980852A6625DB41FA28E0123F073 /* TSocketTransport.swift */,
+				9502E7822B951AE46811C48B2CE8C288 /* TSSLSocketTransport.swift */,
+				424C561F462B2E3563848F78A2288EA2 /* TSSLSocketTransportError.swift */,
+				373618436E31885FA66A356481592D6A /* TStreamTransport.swift */,
+				6F4541DEE3F13E141AEBB1A8616FA75F /* TStruct.swift */,
+				89A791A847F94C3EA6F3CF822A3F06B0 /* TTransport.swift */,
+				BD4167953275C44DF4A139CA63443844 /* TTransportError.swift */,
+				B015231EC4344856F7F80D7A0C824351 /* TWrappedProtocol.swift */,
+				91B176D38B0019F619F9811DAEA133E4 /* Support Files */,
+			);
+			name = Thrift;
+			path = Thrift;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9967684BA3AC12B9A319D4D8A4AE596 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE827CD927C7D08C3F590F6DB55F5D9 /* Pods-ThriftSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5ED5E2911372DEB03B9F9A8C4C013B4B /* Pods */,
+				58F857E7010EE99CA1E2E32365B6E07B /* Products */,
+				C9967684BA3AC12B9A319D4D8A4AE596 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F5061B87648287BB264BB36C1710532 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804F7745AB9FDE97688D5FB12E844729 /* Pods-ThriftSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D3A51F3E24334ACA1E4D47217AD4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4838FEC00611C6C44FA906AF0626D4CF /* Thrift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6D0B01A13296176659A9D23B7E62651 /* Pods-ThriftSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043265CE688BFE244EDAEDA2C63813BC /* Build configuration list for PBXNativeTarget "Pods-ThriftSwift" */;
+			buildPhases = (
+				1F5061B87648287BB264BB36C1710532 /* Headers */,
+				1CC6C1B8084119623D6192873F54512D /* Sources */,
+				1417C898BB369461356184C1787DE300 /* Frameworks */,
+				6AC3CCC9035FA41FD8AC8C61FECC08CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D29775E886764871010F28EA46B409A /* PBXTargetDependency */,
+			);
+			name = "Pods-ThriftSwift";
+			productName = "Pods-ThriftSwift";
+			productReference = 5D4AE710E3BDC1B82ABECBA82F05EE4F /* Pods_ThriftSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E75187789AC56678CEBA8133C07445A1 /* Thrift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E030E68397709DED128080972A9FF017 /* Build configuration list for PBXNativeTarget "Thrift" */;
+			buildPhases = (
+				EC7D3A51F3E24334ACA1E4D47217AD4B /* Headers */,
+				E70FDA8FBD5F53A3446C0C7ADA257B0B /* Sources */,
+				72B95CDE7004D9B996825BA5649C9089 /* Frameworks */,
+				3E13BC473C64BBA6B5A75FF644DD3156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thrift;
+			productName = Thrift;
+			productReference = 6CD0B8A952C6CB50FF91AA8D7EA11949 /* Thrift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 58F857E7010EE99CA1E2E32365B6E07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D0B01A13296176659A9D23B7E62651 /* Pods-ThriftSwift */,
+				E75187789AC56678CEBA8133C07445A1 /* Thrift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E13BC473C64BBA6B5A75FF644DD3156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC3CCC9035FA41FD8AC8C61FECC08CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC6C1B8084119623D6192873F54512D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537A35EBD75B7C8F79F9FF6601DA4F71 /* Pods-ThriftSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70FDA8FBD5F53A3446C0C7ADA257B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2049737E97746519E59ABB0FFB3C00 /* LinuxHelper.swift in Sources */,
+				0B5DBD0673ED7471C7CFFABA77697F8C /* TApplicationError.swift in Sources */,
+				5C4F4855773631C1F1A5C3960B2316AF /* TBinary.swift in Sources */,
+				23D8CD3215A7334E329FE674C76524B1 /* TBinaryProtocol.swift in Sources */,
+				C2ACAC8280A9FB28B57CCF515EC2D7FE /* TClient.swift in Sources */,
+				D1463F62CB1DF64F9AF0A0AEE5765573 /* TCompactProtocol.swift in Sources */,
+				440379D1D88D6E7FBECA89125BA8C7B6 /* TEnum.swift in Sources */,
+				EFCD34A54E336093BDA8B7B8C451EBC0 /* TError.swift in Sources */,
+				C66D385BC10CA79DD6CB8F01FF207B19 /* TFileHandleTransport.swift in Sources */,
+				F80A0B0BA0DA2FA69FD9E9F1EAC59867 /* TFileTransport.swift in Sources */,
+				1D24CDF4A00721E0A2F96537D7D15191 /* TFramedTransport.swift in Sources */,
+				37ACA5C47FF15536FAE1BA95B72AA186 /* Thrift-dummy.m in Sources */,
+				6273AE950E86A6524271CCA5D23352ED /* Thrift.swift in Sources */,
+				5C518FA118199D3F009F2810CB833112 /* THTTPSessionTransport.swift in Sources */,
+				841B8B1BDD66CE6BAB9579B39C0ED323 /* TList.swift in Sources */,
+				3C3B743F297D1A728DBD53C81B8ABECD /* TMap.swift in Sources */,
+				F2B681B7663F0FBC6590943A3C110F5D /* TMemoryBufferTransport.swift in Sources */,
+				332B837C0F0C711331837D4021FF6683 /* TMultiplexedProcessor.swift in Sources */,
+				3F9F2C5EA7CE3546EDFCF8F72854BB9D /* TMultiplexedProtocol.swift in Sources */,
+				A1867BEC1D8A1CA1076018B531814B29 /* TProcessor.swift in Sources */,
+				A69F98E247B1524D57CE0C9C78D4FF12 /* TProtocol.swift in Sources */,
+				251D073E66B4FF46A4F5A62579FDE1B8 /* TProtocolDecorator.swift in Sources */,
+				C30ABB0823E1666D421CF818D67D3667 /* TProtocolError.swift in Sources */,
+				4964E2B6E2F1BFB529C2F4BD6EA20FA6 /* TSerializable.swift in Sources */,
+				5A9E7E3C9303608AB5ABCCE9B98FEA8A /* TSet.swift in Sources */,
+				31CC666636660734B90BC751A3259E66 /* TSocketServer.swift in Sources */,
+				12C42A43D86822FA8F18272F0A769D17 /* TSocketTransport.swift in Sources */,
+				D4B45CF4CF9BF40A14B928C71BAB2FC9 /* TSSLSocketTransport.swift in Sources */,
+				CDAC5DB79B84E40ABA938DE62C37F13D /* TSSLSocketTransportError.swift in Sources */,
+				4072D2A31FDA004B1AFB1EF798ECC2FC /* TStreamTransport.swift in Sources */,
+				716B5945B77BCA633189C27589F8D72F /* TStruct.swift in Sources */,
+				525845E6D775369C642E16081B016281 /* TTransport.swift in Sources */,
+				07DA81615C66879A3E6B3811EE07F993 /* TTransportError.swift in Sources */,
+				CCD449148CD4E395D93150F5FC617721 /* TWrappedProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D29775E886764871010F28EA46B409A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Thrift;
+			target = E75187789AC56678CEBA8133C07445A1 /* Thrift */;
+			targetProxy = 429AF67945871ECD7B3C7A987848DB26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C1C42DEF7A17A687103DB10DBF2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90A9DA6EE0C80DB80683A2059535EC0 /* Pods-ThriftSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73C25657BA6B3D9DCED02688DA30D2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A30297C5D598E86C000133D71D8E5BE /* Pods-ThriftSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8BBFE08C148A3F86AC929DE927553C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA05221840ACD489330039E26E28FCF2 /* Thrift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Thrift/Thrift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Thrift/Thrift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Thrift/Thrift.modulemap";
+				PRODUCT_MODULE_NAME = Thrift;
+				PRODUCT_NAME = Thrift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F82DFD63E13EFBF19D41BCB052A5FDF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA05221840ACD489330039E26E28FCF2 /* Thrift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Thrift/Thrift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Thrift/Thrift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Thrift/Thrift.modulemap";
+				PRODUCT_MODULE_NAME = Thrift;
+				PRODUCT_NAME = Thrift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043265CE688BFE244EDAEDA2C63813BC /* Build configuration list for PBXNativeTarget "Pods-ThriftSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C25657BA6B3D9DCED02688DA30D2D8 /* Debug */,
+				05C1C42DEF7A17A687103DB10DBF2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E030E68397709DED128080972A9FF017 /* Build configuration list for PBXNativeTarget "Thrift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BBFE08C148A3F86AC929DE927553C1 /* Debug */,
+				F82DFD63E13EFBF19D41BCB052A5FDF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

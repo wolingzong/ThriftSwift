@@ -3,19 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1FBC072409B13200A3E6F9 /* example.thrift in Resources */ = {isa = PBXBuildFile; fileRef = 4D1FBC062409B13200A3E6F9 /* example.thrift */; };
+		4D1FBC1C2409C20100A3E6F9 /* eog_config_types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC0E2409C20100A3E6F9 /* eog_config_types.swift */; };
+		4D1FBC1D2409C20100A3E6F9 /* eog_unit+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC0F2409C20100A3E6F9 /* eog_unit+Exts.swift */; };
+		4D1FBC1E2409C20100A3E6F9 /* eog_building+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC102409C20100A3E6F9 /* eog_building+Exts.swift */; };
+		4D1FBC1F2409C20100A3E6F9 /* eog_unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC112409C20100A3E6F9 /* eog_unit.swift */; };
+		4D1FBC202409C20100A3E6F9 /* eog_exceptions+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC122409C20100A3E6F9 /* eog_exceptions+Exts.swift */; };
+		4D1FBC212409C20100A3E6F9 /* eog_shared+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC132409C20100A3E6F9 /* eog_shared+Exts.swift */; };
+		4D1FBC222409C20100A3E6F9 /* eog_config+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC142409C20100A3E6F9 /* eog_config+Exts.swift */; };
+		4D1FBC232409C20100A3E6F9 /* eog_batsim_int+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC152409C20100A3E6F9 /* eog_batsim_int+Exts.swift */; };
+		4D1FBC242409C20100A3E6F9 /* eog_config_types+Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC162409C20100A3E6F9 /* eog_config_types+Exts.swift */; };
+		4D1FBC252409C20100A3E6F9 /* eog_building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC172409C20100A3E6F9 /* eog_building.swift */; };
+		4D1FBC262409C20100A3E6F9 /* eog_batsim_int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC182409C20100A3E6F9 /* eog_batsim_int.swift */; };
+		4D1FBC272409C20100A3E6F9 /* eog_config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC192409C20100A3E6F9 /* eog_config.swift */; };
+		4D1FBC282409C20100A3E6F9 /* eog_exceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC1A2409C20100A3E6F9 /* eog_exceptions.swift */; };
+		4D1FBC292409C20100A3E6F9 /* eog_shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1FBC1B2409C20100A3E6F9 /* eog_shared.swift */; };
 		4D2CE3AD2409ABBD003F6E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE3AC2409ABBD003F6E4E /* AppDelegate.swift */; };
 		4D2CE3AF2409ABBD003F6E4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE3AE2409ABBD003F6E4E /* SceneDelegate.swift */; };
 		4D2CE3B12409ABBD003F6E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE3B02409ABBD003F6E4E /* ViewController.swift */; };
 		4D2CE3B42409ABBD003F6E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CE3B22409ABBD003F6E4E /* Main.storyboard */; };
 		4D2CE3B62409ABBF003F6E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CE3B52409ABBF003F6E4E /* Assets.xcassets */; };
 		4D2CE3B92409ABBF003F6E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2CE3B72409ABBF003F6E4E /* LaunchScreen.storyboard */; };
+		B725C54745944131ECA801D9 /* Pods_ThriftSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB344F8AEF2831F9E4B6270D /* Pods_ThriftSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1FBC062409B13200A3E6F9 /* example.thrift */ = {isa = PBXFileReference; lastKnownFileType = text; path = example.thrift; sourceTree = "<group>"; };
+		4D1FBC0E2409C20100A3E6F9 /* eog_config_types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_config_types.swift; sourceTree = "<group>"; };
+		4D1FBC0F2409C20100A3E6F9 /* eog_unit+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_unit+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC102409C20100A3E6F9 /* eog_building+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_building+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC112409C20100A3E6F9 /* eog_unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_unit.swift; sourceTree = "<group>"; };
+		4D1FBC122409C20100A3E6F9 /* eog_exceptions+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_exceptions+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC132409C20100A3E6F9 /* eog_shared+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_shared+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC142409C20100A3E6F9 /* eog_config+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_config+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC152409C20100A3E6F9 /* eog_batsim_int+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_batsim_int+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC162409C20100A3E6F9 /* eog_config_types+Exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "eog_config_types+Exts.swift"; sourceTree = "<group>"; };
+		4D1FBC172409C20100A3E6F9 /* eog_building.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_building.swift; sourceTree = "<group>"; };
+		4D1FBC182409C20100A3E6F9 /* eog_batsim_int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_batsim_int.swift; sourceTree = "<group>"; };
+		4D1FBC192409C20100A3E6F9 /* eog_config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_config.swift; sourceTree = "<group>"; };
+		4D1FBC1A2409C20100A3E6F9 /* eog_exceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_exceptions.swift; sourceTree = "<group>"; };
+		4D1FBC1B2409C20100A3E6F9 /* eog_shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eog_shared.swift; sourceTree = "<group>"; };
 		4D2CE3A92409ABBD003F6E4E /* ThriftSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThriftSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D2CE3AC2409ABBD003F6E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D2CE3AE2409ABBD003F6E4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +55,9 @@
 		4D2CE3B52409ABBF003F6E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D2CE3B82409ABBF003F6E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D2CE3BA2409ABBF003F6E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D7A05C56D8025C0DB9B182 /* Pods-ThriftSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThriftSwift.debug.xcconfig"; path = "Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		D46961D76013D3A48EBBFF96 /* Pods-ThriftSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThriftSwift.release.xcconfig"; path = "Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift.release.xcconfig"; sourceTree = "<group>"; };
+		DB344F8AEF2831F9E4B6270D /* Pods_ThriftSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThriftSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B725C54745944131ECA801D9 /* Pods_ThriftSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1FBC0D2409C20100A3E6F9 /* gen_swift */ = {
+			isa = PBXGroup;
+			children = (
+				4D1FBC0E2409C20100A3E6F9 /* eog_config_types.swift */,
+				4D1FBC0F2409C20100A3E6F9 /* eog_unit+Exts.swift */,
+				4D1FBC102409C20100A3E6F9 /* eog_building+Exts.swift */,
+				4D1FBC112409C20100A3E6F9 /* eog_unit.swift */,
+				4D1FBC122409C20100A3E6F9 /* eog_exceptions+Exts.swift */,
+				4D1FBC132409C20100A3E6F9 /* eog_shared+Exts.swift */,
+				4D1FBC142409C20100A3E6F9 /* eog_config+Exts.swift */,
+				4D1FBC152409C20100A3E6F9 /* eog_batsim_int+Exts.swift */,
+				4D1FBC162409C20100A3E6F9 /* eog_config_types+Exts.swift */,
+				4D1FBC172409C20100A3E6F9 /* eog_building.swift */,
+				4D1FBC182409C20100A3E6F9 /* eog_batsim_int.swift */,
+				4D1FBC192409C20100A3E6F9 /* eog_config.swift */,
+				4D1FBC1A2409C20100A3E6F9 /* eog_exceptions.swift */,
+				4D1FBC1B2409C20100A3E6F9 /* eog_shared.swift */,
+			);
+			path = gen_swift;
+			sourceTree = "<group>";
+		};
 		4D2CE3A02409ABBD003F6E4E = {
 			isa = PBXGroup;
 			children = (
 				4D2CE3AB2409ABBD003F6E4E /* ThriftSwift */,
 				4D2CE3AA2409ABBD003F6E4E /* Products */,
+				FCE2EBAF69C27080E8EFC75E /* Pods */,
+				7D8A520466ADB7C048FAE093 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +114,7 @@
 		4D2CE3AB2409ABBD003F6E4E /* ThriftSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4D1FBC0D2409C20100A3E6F9 /* gen_swift */,
 				4D2CE3AC2409ABBD003F6E4E /* AppDelegate.swift */,
 				4D2CE3AE2409ABBD003F6E4E /* SceneDelegate.swift */,
 				4D2CE3B02409ABBD003F6E4E /* ViewController.swift */,
@@ -63,8 +122,26 @@
 				4D2CE3B52409ABBF003F6E4E /* Assets.xcassets */,
 				4D2CE3B72409ABBF003F6E4E /* LaunchScreen.storyboard */,
 				4D2CE3BA2409ABBF003F6E4E /* Info.plist */,
+				4D1FBC062409B13200A3E6F9 /* example.thrift */,
 			);
 			path = ThriftSwift;
+			sourceTree = "<group>";
+		};
+		7D8A520466ADB7C048FAE093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB344F8AEF2831F9E4B6270D /* Pods_ThriftSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE2EBAF69C27080E8EFC75E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D7A05C56D8025C0DB9B182 /* Pods-ThriftSwift.debug.xcconfig */,
+				D46961D76013D3A48EBBFF96 /* Pods-ThriftSwift.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D2CE3BD2409ABBF003F6E4E /* Build configuration list for PBXNativeTarget "ThriftSwift" */;
 			buildPhases = (
+				23B49EBD8A4AF7C0C18716F3 /* [CP] Check Pods Manifest.lock */,
 				4D2CE3A52409ABBD003F6E4E /* Sources */,
 				4D2CE3A62409ABBD003F6E4E /* Frameworks */,
 				4D2CE3A72409ABBD003F6E4E /* Resources */,
+				BFEDE8E5D14BD0D1FE9B2DB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D2CE3B92409ABBF003F6E4E /* LaunchScreen.storyboard in Resources */,
+				4D1FBC072409B13200A3E6F9 /* example.thrift in Resources */,
 				4D2CE3B62409ABBF003F6E4E /* Assets.xcassets in Resources */,
 				4D2CE3B42409ABBD003F6E4E /* Main.storyboard in Resources */,
 			);
@@ -133,14 +213,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23B49EBD8A4AF7C0C18716F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThriftSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEDE8E5D14BD0D1FE9B2DB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThriftSwift/Pods-ThriftSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D2CE3A52409ABBD003F6E4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1FBC1D2409C20100A3E6F9 /* eog_unit+Exts.swift in Sources */,
+				4D1FBC222409C20100A3E6F9 /* eog_config+Exts.swift in Sources */,
 				4D2CE3B12409ABBD003F6E4E /* ViewController.swift in Sources */,
+				4D1FBC262409C20100A3E6F9 /* eog_batsim_int.swift in Sources */,
+				4D1FBC1C2409C20100A3E6F9 /* eog_config_types.swift in Sources */,
 				4D2CE3AD2409ABBD003F6E4E /* AppDelegate.swift in Sources */,
+				4D1FBC242409C20100A3E6F9 /* eog_config_types+Exts.swift in Sources */,
+				4D1FBC292409C20100A3E6F9 /* eog_shared.swift in Sources */,
+				4D1FBC232409C20100A3E6F9 /* eog_batsim_int+Exts.swift in Sources */,
+				4D1FBC272409C20100A3E6F9 /* eog_config.swift in Sources */,
+				4D1FBC212409C20100A3E6F9 /* eog_shared+Exts.swift in Sources */,
 				4D2CE3AF2409ABBD003F6E4E /* SceneDelegate.swift in Sources */,
+				4D1FBC282409C20100A3E6F9 /* eog_exceptions.swift in Sources */,
+				4D1FBC252409C20100A3E6F9 /* eog_building.swift in Sources */,
+				4D1FBC1E2409C20100A3E6F9 /* eog_building+Exts.swift in Sources */,
+				4D1FBC1F2409C20100A3E6F9 /* eog_unit.swift in Sources */,
+				4D1FBC202409C20100A3E6F9 /* eog_exceptions+Exts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		4D2CE3BE2409ABBF003F6E4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D7A05C56D8025C0DB9B182 /* Pods-ThriftSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +437,7 @@
 		};
 		4D2CE3BF2409ABBF003F6E4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46961D76013D3A48EBBFF96 /* Pods-ThriftSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
